@@ -951,6 +951,11 @@ Odds of capture per ball: 0.42%
 Odds of success with balls only: 1.72%
 Odds of success starting with one bait: 1.83%
 Odds of success starting with one mud: 1.92%
+Odds of success starting with two mud: 2.09%
+Odds of success starting with three mud: 2.21%
+Odds of success starting with four mud: 2.29%
+Odds of success starting with five mud: 2.36%
+Odds of success starting with six mud: 2.38%
 
 POKEMON: Bidoof
 Flee rate: 90
@@ -1050,7 +1055,7 @@ Catch rate: 120
 Odds of capture per ball: 27.97%
 Odds of success with balls only: 45.01%
 
-POKEMON: Croakgunk
+POKEMON: Croagunk
 Flee rate: 150
 Odds to flee per turn: 59.22%
 Catch rate: 140
