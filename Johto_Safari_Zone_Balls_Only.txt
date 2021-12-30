@@ -4,7 +4,7 @@ Odds to flee per turn: 23.92%
 Catch rate: 3
 Odds of capture per ball: 0.42%
 Odds of success with balls only: 1.72%
-Odds of success starting with one mud: 1.83%
+Odds of success starting with one mud: 1.84%
 Odds of success starting with one bait: 1.93%
 Odds of success starting with two bait: 2.10%
 Odds of success starting with three bait: 2.22%
