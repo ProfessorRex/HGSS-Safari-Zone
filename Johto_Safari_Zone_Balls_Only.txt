@@ -6,11 +6,11 @@ Odds of capture per ball: 0.42%
 Odds of success with balls only: 1.72%
 Odds of success starting with one mud: 1.84%
 Odds of success starting with one bait: 1.93%
-Odds of success starting with two bait: 2.10%
-Odds of success starting with three bait: 2.22%
-Odds of success starting with four bait: 2.31%
-Odds of success starting with five bait: 2.37%
-Odds of success starting with six bait: 2.39%
+Odds of success starting with two bait: 2.09%
+Odds of success starting with three bait: 2.21%
+Odds of success starting with four bait: 2.29%
+Odds of success starting with five bait: 2.35%
+Odds of success starting with six bait: 2.37%
 
 POKEMON: Pidgey
 Flee rate: 90
