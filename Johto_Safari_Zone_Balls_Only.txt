@@ -1,3 +1,17 @@
+POKEMON: Metang
+Flee rate: 60
+Odds to flee per turn: 23.92%
+Catch rate: 3
+Odds of capture per ball: 0.42%
+Odds of success with balls only: 1.72%
+Odds of success starting with one bait: 1.83%
+Odds of success starting with one mud: 1.92%
+Odds of success starting with two mud: 2.09%
+Odds of success starting with three mud: 2.21%
+Odds of success starting with four mud: 2.29%
+Odds of success starting with five mud: 2.36%
+Odds of success starting with six mud: 2.38%
+
 POKEMON: Pidgey
 Flee rate: 90
 Odds to flee per turn: 35.69%
@@ -942,20 +956,6 @@ Odds to flee per turn: 59.22%
 Catch rate: 3
 Odds of capture per ball: 0.42%
 Odds of success with balls only: 0.7%
-
-POKEMON: Metang
-Flee rate: 60
-Odds to flee per turn: 23.92%
-Catch rate: 3
-Odds of capture per ball: 0.42%
-Odds of success with balls only: 1.72%
-Odds of success starting with one bait: 1.83%
-Odds of success starting with one mud: 1.92%
-Odds of success starting with two mud: 2.09%
-Odds of success starting with three mud: 2.21%
-Odds of success starting with four mud: 2.29%
-Odds of success starting with five mud: 2.36%
-Odds of success starting with six mud: 2.38%
 
 POKEMON: Bidoof
 Flee rate: 90
