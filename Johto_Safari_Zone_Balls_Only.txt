@@ -1,6 +1,6 @@
 POKEMON: Metang
 Flee rate: 60
-Odds to flee per turn: 23.92%
+Odds to flee per turn: 23.83%
 Catch rate: 3
 Odds of capture per ball: 0.42%
 Odds of success with balls only: 1.72%
