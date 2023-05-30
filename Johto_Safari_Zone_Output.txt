@@ -898,6 +898,15 @@ Odds of success with balls only: 59.48%
 Odds of success starting with one mud: 37.4%
 Odds of success starting with one bait: 29.77%
 
+POKEMON: Shuppet
+Flee rate: 150
+Odds to flee per turn: 58.98%
+Catch rate: 225
+Odds of capture per ball: 50.28%
+Odds of success with balls only: 63.16%
+Odds of success starting with one mud: 33.24%
+Odds of success starting with one bait: 23.73%
+
 POKEMON: Masquerain
 Flee rate: 90
 Odds to flee per turn: 35.55%
