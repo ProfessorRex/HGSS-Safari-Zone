@@ -12,6 +12,15 @@ Odds of success starting with four bait: 2.29%
 Odds of success starting with five bait: 2.35%
 Odds of success starting with six bait: 2.37%
 
+POKEMON: Beldum
+Flee rate: 90
+Odds to flee per turn: 35.55%
+Catch rate: 3
+Odds of capture per ball: 0.42%
+Odds of success with balls only: 1.16%
+Odds of success starting with one mud: 1.11%
+Odds of success starting with one bait: 1.05%
+
 POKEMON: Pidgey
 Flee rate: 90
 Odds to flee per turn: 35.55%
@@ -256,13 +265,13 @@ Odds of success starting with one mud: 29.77%
 Odds of success starting with one bait: 37.4%
 
 POKEMON: Machop
-Flee rate: 60
-Odds to flee per turn: 23.83%
+Flee rate: 90
+Odds to flee per turn: 35.55%
 Catch rate: 180
 Odds of capture per ball: 40.96%
-Odds of success with balls only: 74.43%
-Odds of success starting with one mud: 54.73%
-Odds of success starting with one bait: 63.13%
+Odds of success with balls only: 66.12%
+Odds of success starting with one mud: 40.75%
+Odds of success starting with one bait: 49.26%
 
 POKEMON: Machoke
 Flee rate: 60
@@ -552,7 +561,7 @@ Odds of success with balls only: 15.79%
 Odds of success starting with one mud: 10.74%
 Odds of success starting with one bait: 10.79%
 
-POKEMON: Kangaskhan
+POKEMON: Kanaskhan
 Flee rate: 150
 Odds to flee per turn: 58.98%
 Catch rate: 45
@@ -715,13 +724,13 @@ Odds of success starting with one mud: 44.71%
 Odds of success starting with one bait: 56.5%
 
 POKEMON: Skiploom
-Flee rate: 120
-Odds to flee per turn: 47.27%
+Flee rate: 90
+Odds to flee per turn: 35.55%
 Catch rate: 120
 Odds of capture per ball: 27.97%
-Odds of success with balls only: 45.1%
-Odds of success starting with one mud: 21.38%
-Odds of success starting with one bait: 26.64%
+Odds of success with balls only: 52.21%
+Odds of success starting with one mud: 30.58%
+Odds of success starting with one bait: 37.11%
 
 POKEMON: Jumpluff
 Flee rate: 120
@@ -769,13 +778,13 @@ Odds of success starting with one mud: 6.9%
 Odds of success starting with one bait: 6.93%
 
 POKEMON: Misdreavus
-Flee rate: 150
-Odds to flee per turn: 58.98%
+Flee rate: 120
+Odds to flee per turn: 47.27%
 Catch rate: 45
 Odds of capture per ball: 9.27%
-Odds of success with balls only: 14.76%
-Odds of success starting with one mud: 6.18%
-Odds of success starting with one bait: 6.79%
+Odds of success with balls only: 17.77%
+Odds of success starting with one mud: 9.55%
+Odds of success starting with one bait: 10.47%
 
 POKEMON: Wobbuffet
 Flee rate: 60
@@ -895,13 +904,13 @@ Odds of success starting with one mud: 44.71%
 Odds of success starting with one bait: 56.5%
 
 POKEMON: Nuzleaf
-Flee rate: 120
-Odds to flee per turn: 47.27%
+Flee rate: 60
+Odds to flee per turn: 23.83%
 Catch rate: 120
 Odds of capture per ball: 27.97%
-Odds of success with balls only: 45.1%
-Odds of success starting with one mud: 21.38%
-Odds of success starting with one bait: 26.64%
+Odds of success with balls only: 61.97%
+Odds of success starting with one mud: 43.59%
+Odds of success starting with one bait: 51.0%
 
 POKEMON: Surskit
 Flee rate: 120
@@ -976,13 +985,13 @@ Odds of success starting with one mud: 40.75%
 Odds of success starting with one bait: 49.26%
 
 POKEMON: Lairon
-Flee rate: 90
-Odds to flee per turn: 35.55%
+Flee rate: 60
+Odds to flee per turn: 23.83%
 Catch rate: 90
 Odds of capture per ball: 19.75%
-Odds of success with balls only: 40.91%
-Odds of success starting with one mud: 24.81%
-Odds of success starting with one bait: 27.86%
+Odds of success with balls only: 50.81%
+Odds of success starting with one mud: 36.67%
+Odds of success starting with one bait: 40.51%
 
 POKEMON: Meditite
 Flee rate: 90
@@ -1226,15 +1235,6 @@ Odds of capture per ball: 9.27%
 Odds of success with balls only: 17.77%
 Odds of success starting with one mud: 9.55%
 Odds of success starting with one bait: 10.47%
-
-POKEMON: Beldum
-Flee rate: 150
-Odds to flee per turn: 58.98%
-Catch rate: 3
-Odds of capture per ball: 0.42%
-Odds of success with balls only: 0.7%
-Odds of success starting with one mud: 0.43%
-Odds of success starting with one bait: 0.4%
 
 POKEMON: Bidoof
 Flee rate: 90
