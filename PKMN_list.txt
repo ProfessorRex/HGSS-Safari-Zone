@@ -109,7 +109,7 @@ DEX, NAME, Catch Rate, Flee Rate
 189, Jumpluff, 45, 120
 213, Shuckle, 190, 60
 315, Roselia, 150, 60
-90, Seviper, 90, 90
+336, Seviper, 90, 90
 339, Barboach, 190, 120
 354, Banette, 45, 90
 453, Croakgunk, 140, 150
