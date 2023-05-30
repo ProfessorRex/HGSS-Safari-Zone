@@ -23,11 +23,11 @@ DEX, NAME, Catch Rate, Flee Rate
 130, Gyarados, 45, 60
 183, Marill, 190, 60
 187, Hoppip, 255, 90
-188, Skiploom, 120, 120
+188, Skiploom, 120, 90
 191, Sunkern, 235, 90
 194, Wooper, 255, 120
 273, Seedot, 255, 90
-274, Nuzleaf, 120, 120
+274, Nuzleaf, 120, 60
 284, Masquerain, 75, 90
 299, Nosepass, 255, 60
 447, Riolu, 75, 120
@@ -56,7 +56,7 @@ DEX, NAME, Catch Rate, Flee Rate
 202, Wobbuffet, 45, 60
 264, Linoone, 90, 90
 288, Vigoroth, 120, 90
-305, Lairon, 90, 90
+305, Lairon, 90, 60
 363, Spheal, 255, 90
 436, Bronzor, 255, 90
 79, Slowpoke, 190, 60
@@ -114,7 +114,7 @@ DEX, NAME, Catch Rate, Flee Rate
 354, Banette, 45, 90
 453, Croakgunk, 140, 150
 455, Carnivine, 200, 60
-66, Machop, 180, 60
+66, Machop, 180, 90
 67, Machoke, 90, 60
 69, Bellsprout, 255, 90
 95, Onix, 45, 60
@@ -131,7 +131,7 @@ DEX, NAME, Catch Rate, Flee Rate
 337, Lunatone, 45, 60
 356, Dusclops, 90, 90
 364, Sealeo, 120, 60
-375, Metang, 3, 60
+0, Metang, 3, 60
 433, Chingling, 120, 120
 27, Sandshrew, 255, 90
 28, Sandslash, 90, 60
@@ -147,7 +147,8 @@ DEX, NAME, Catch Rate, Flee Rate
 93, Haunter, 90, 90
 122, Mr. Mime., 45, 90
 125, Electabuzz, 45, 120
-200, Misdreavus, 45, 150
-374, Beldum, 3, 150
+200, Misdreavus, 45, 120
+2, Beldum, 3, 90
 399, Bidoof, 255, 90
 437, Bronzong, 90, 60
+353, Shuppet, 225, 150
