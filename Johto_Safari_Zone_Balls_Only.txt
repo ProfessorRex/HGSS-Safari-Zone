@@ -12,7 +12,7 @@ Odds of success starting with four bait: 2.29%
 Odds of success starting with five bait: 2.35%
 Odds of success starting with six bait: 2.37%
 
-Beldum
+POKEMON: Beldum
 Flee rate: 90
 Odds to flee per turn: 35.55%
 Catch rate: 3
