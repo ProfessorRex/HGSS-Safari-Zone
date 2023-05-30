@@ -12,7 +12,6 @@ Odds of success starting with four bait: 2.29%
 Odds of success starting with five bait: 2.35%
 Odds of success starting with six bait: 2.37%
 
-POKEMON: Beldum
 Flee rate: 90
 Odds to flee per turn: 35.55%
 Catch rate: 3
@@ -209,11 +208,11 @@ Odds of capture per ball: 40.96%
 Odds of success with balls only: 59.48%
 
 POKEMON: Machop
-Flee rate: 60
-Odds to flee per turn: 23.83%
+Flee rate: 90
+Odds to flee per turn: 35.55%
 Catch rate: 180
 Odds of capture per ball: 40.96%
-Odds of success with balls only: 74.43%
+Odds of success with balls only: 66.12%
 
 POKEMON: Machoke
 Flee rate: 60
