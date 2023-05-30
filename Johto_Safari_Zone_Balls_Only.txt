@@ -880,6 +880,13 @@ Catch rate: 45
 Odds of capture per ball: 9.27%
 Odds of success with balls only: 30.0%
 
+POKEMON: Shuppet
+Flee rate: 150
+Odds to flee per turn: 58.98%
+Catch rate: 225
+Odds of capture per ball: 50.28%
+Odds of success with balls only: 63.16%
+
 POKEMON: Barboach
 Flee rate: 120
 Odds to flee per turn: 47.27%
