@@ -8,7 +8,7 @@ def get_fc(name):
     fc = [(60, 90), (60, 75), (60, 45), (60, 90), (60, 190), (60, 90), (60, 150), (60, 200), (60, 120), (60, 127), (60, 45), (60, 200),
           (90, 190), (90, 45), (90, 255), (90, 255), (90, 225), (90, 255), (90, 255), (120, 190), (120, 90), (120, 75), (120, 255),
           (120, 255), (120, 150), (120, 225), (120, 190), (120, 200), (120, 255), (120, 120), (120, 75), (150, 45), (150, 140), (0, 75)]
-    names = ['ARBOK', 'GOLDUCK', 'GYRADOS', 'NOCTOWL', 'MARILL', 'QUAGSIRE', 'ROSELIA', 'TROPIUS', 'STARAVIA', 'BIBAREL', 'DRAPION',
+    names = ['ARBOK', 'GOLDUCK', 'GYARADOS', 'NOCTOWL', 'MARILL', 'QUAGSIRE', 'ROSELIA', 'TROPIUS', 'STARAVIA', 'BIBAREL', 'DRAPION',
              'CARNIVINE', 'PSYDUCK', 'TANGELA', 'MAGIKARP', 'HOOTHOOT', 'CARVANHA', 'STARLY', 'BIDOOF', 'PARAS', 'EXEGGCUTE',
              'YANMA', 'WOOPER', 'SHROOMISH', 'AZURILL', 'GULPIN', 'BARBOACH', 'KEKLEON', 'BUDEW', 'SKORUPI', 'TOXICROAK',
              'KANGASKHAN', 'CROAGUNK', 'WHISCASH']
@@ -33,7 +33,7 @@ def calculate_catch_odds(rate, catch=6):
         p = pow((b/65536), 4)
     return p
 
-def get_modified_rate(rate, mod):
+def get_modified_rate_old(rate, mod=6):
     '''
     Returns the modifed rate based off of the current
     stat buff/debuff
@@ -46,15 +46,63 @@ def get_modified_rate(rate, mod):
     else:
         return int((mod-4)/2*rate)
 
+def get_modified_rate(rate, mod=6):
+    '''
+    Returns the modifed rate based off of the current
+    stat buff/debuff
+    6 being netural
+    '''
+    if mod == 6:
+        return rate
+    elif mod == 5:
+        return int(rate*10/15)
+    elif mod == 4:
+        return int(rate*10/20)
+    elif mod == 3:
+        return int(rate*10/25)
+    elif mod == 2:
+        return int(rate*10/30)
+    elif mod == 1:
+        return int(rate*10/35)
+    elif mod == 0:
+        return int(rate*10/40)
+    elif mod == 7:
+        return int(rate*15/10)
+    elif mod == 8:
+        return int(rate*20/10)
+    elif mod == 9:
+        return int(rate*25/10)
+    elif mod == 10:
+        return int(rate*30/10)
+    elif mod == 11:
+        return int(rate*35/10)
+    elif mod == 12:
+        return int(rate*40/10)
+
 def calculate_flee_odds(rate, mod=6):
     '''
     
     '''
     rate = get_modified_rate(rate, mod)
-    odds = (rate + 1)/255
+    odds = (rate + 1)/256
     return min(1, odds)
 
+def m(rate, thrown=6, z=1):
+    while mod <= 6:
+        z *= 1 - (((rate*2/(thrown + 2)) + 1)/256)
+        mod += 1
+    return z
 
+def b(y, z=6, p=1, rate=60):
+    if 0 > y or y >= z:
+        return p
+    else:
+        return t(y, z, p)
+     
+def t(y, z, p, rate=60):
+    print("odds: " + str(p * (1 - (((rate*2/(y+2))+1)/256))))
+    return b(y + 1, z, p * (1 - (((rate*2/(y+2))+1)/256)))
+    
 def odds_of_catch(p_turn, p_catch, p_flee):
     '''FOR ODDS BY TURN - TAKES INTO ACCOUNT ODDS OF GETTING TO SAID TURN'''
     # The probability to catch on any ball throw is:
@@ -206,7 +254,7 @@ def pretty_output(pokemon, n=3):
               str(round((omo[0] * 100), 2)) + "%")
 
 def all_pretty(n=3):
-    names = ['ARBOK', 'GOLDUCK', 'GYRADOS', 'NOCTOWL', 'MARILL', 'QUAGSIRE', 'ROSELIA', 'TROPIUS', 'STARAVIA', 'BIBAREL', 'DRAPION',
+    names = ['ARBOK', 'GOLDUCK', 'GYARADOS', 'NOCTOWL', 'MARILL', 'QUAGSIRE', 'ROSELIA', 'TROPIUS', 'STARAVIA', 'BIBAREL', 'DRAPION',
              'CARNIVINE', 'PSYDUCK', 'TANGELA', 'MAGIKARP', 'HOOTHOOT', 'CARVANHA', 'STARLY', 'BIDOOF', 'PARAS', 'EXEGGCUTE',
              'YANMA', 'WOOPER', 'SHROOMISH', 'AZURILL', 'GULPIN', 'BARBOACH', 'KEKLEON', 'BUDEW', 'SKORUPI', 'TOXICROAK',
              'KANGASKHAN', 'CROAGUNK', 'WHISCASH']
@@ -248,17 +296,17 @@ def pretty_output_jhoto(pokemon, catch_rate, flee_rate, n=3):
     print('Odds of success with balls only: ' +
           str(round((boo[0] * 100), 2)) + "%")
     if n>=2:
-        obo = one_bait_catch((flee_rate, catch_rate))
-        print('Odds of success starting with one bait: ' +
+        obo = one_mud_catch((flee_rate, catch_rate))
+        print('Odds of success starting with one mud: ' +
               str(round((obo[0] * 100), 2)) + "%")
     if n>=3:
-        omo = one_mud_catch((flee_rate, catch_rate))
-        print('Odds of success starting with one mud: ' +
+        omo = one_bait_catch((flee_rate, catch_rate))
+        print('Odds of success starting with one bait: ' +
               str(round((omo[0] * 100), 2)) + "%")
 
 
 def combo_tests():
-    names = ['ARBOK', 'GOLDUCK', 'GYRADOS', 'NOCTOWL', 'MARILL', 'QUAGSIRE', 'ROSELIA', 'TROPIUS', 'STARAVIA', 'BIBAREL', 'DRAPION',
+    names = ['ARBOK', 'GOLDUCK', 'GYARADOS', 'NOCTOWL', 'MARILL', 'QUAGSIRE', 'ROSELIA', 'TROPIUS', 'STARAVIA', 'BIBAREL', 'DRAPION',
              'CARNIVINE', 'PSYDUCK', 'TANGELA', 'MAGIKARP', 'HOOTHOOT', 'CARVANHA', 'STARLY', 'BIDOOF', 'PARAS', 'EXEGGCUTE',
              'YANMA', 'WOOPER', 'SHROOMISH', 'AZURILL', 'GULPIN', 'BARBOACH', 'KEKLEON', 'BUDEW', 'SKORUPI', 'TOXICROAK',
              'KANGASKHAN', 'CROAGUNK']    
@@ -273,5 +321,6 @@ def combo_tests():
 
 if __name__ == '__main__':
     print("GENERATION 4 GREAT MARSH ZONE CALCULATOR")
-    #all_pretty()
+    #all_pretty(1)
+    all_pretty_jhoto(1)
     input("DONE")
