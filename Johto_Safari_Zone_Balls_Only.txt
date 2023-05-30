@@ -12,6 +12,13 @@ Odds of success starting with four bait: 2.29%
 Odds of success starting with five bait: 2.35%
 Odds of success starting with six bait: 2.37%
 
+POKEMON: Beldum
+Flee rate: 90
+Odds to flee per turn: 35.55%
+Catch rate: 3
+Odds of capture per ball: 0.42%
+Odds of success with balls only: 1.16%
+
 POKEMON: Pidgey
 Flee rate: 90
 Odds to flee per turn: 35.55%
@@ -432,7 +439,7 @@ Catch rate: 30
 Odds of capture per ball: 6.25%
 Odds of success with balls only: 15.79%
 
-POKEMON: Kangaskhan
+POKEMON: Kanaskhan
 Flee rate: 150
 Odds to flee per turn: 58.98%
 Catch rate: 45
@@ -559,11 +566,11 @@ Odds of capture per ball: 50.28%
 Odds of success with balls only: 73.99%
 
 POKEMON: Skiploom
-Flee rate: 120
-Odds to flee per turn: 47.27%
+Flee rate: 90
+Odds to flee per turn: 35.55%
 Catch rate: 120
 Odds of capture per ball: 27.97%
-Odds of success with balls only: 45.1%
+Odds of success with balls only: 52.21%
 
 POKEMON: Jumpluff
 Flee rate: 120
@@ -601,11 +608,11 @@ Odds of capture per ball: 6.25%
 Odds of success with balls only: 12.36%
 
 POKEMON: Misdreavus
-Flee rate: 150
-Odds to flee per turn: 58.98%
+Flee rate: 120
+Odds to flee per turn: 47.27%
 Catch rate: 45
 Odds of capture per ball: 9.27%
-Odds of success with balls only: 14.76%
+Odds of success with balls only: 17.77%
 
 POKEMON: Wobbuffet
 Flee rate: 60
@@ -699,11 +706,11 @@ Odds of capture per ball: 50.28%
 Odds of success with balls only: 73.99%
 
 POKEMON: Nuzleaf
-Flee rate: 120
-Odds to flee per turn: 47.27%
+Flee rate: 60
+Odds to flee per turn: 23.83%
 Catch rate: 120
 Odds of capture per ball: 27.97%
-Odds of success with balls only: 45.1%
+Odds of success with balls only: 61.97%
 
 POKEMON: Surskit
 Flee rate: 120
@@ -762,11 +769,11 @@ Odds of capture per ball: 40.96%
 Odds of success with balls only: 66.12%
 
 POKEMON: Lairon
-Flee rate: 90
-Odds to flee per turn: 35.55%
+Flee rate: 60
+Odds to flee per turn: 23.83%
 Catch rate: 90
 Odds of capture per ball: 19.75%
-Odds of success with balls only: 40.91%
+Odds of success with balls only: 50.81%
 
 POKEMON: Meditite
 Flee rate: 90
@@ -956,13 +963,6 @@ Odds to flee per turn: 47.27%
 Catch rate: 45
 Odds of capture per ball: 9.27%
 Odds of success with balls only: 17.77%
-
-POKEMON: Beldum
-Flee rate: 150
-Odds to flee per turn: 58.98%
-Catch rate: 3
-Odds of capture per ball: 0.42%
-Odds of success with balls only: 0.7%
 
 POKEMON: Bidoof
 Flee rate: 90
