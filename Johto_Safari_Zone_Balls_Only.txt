@@ -6,11 +6,11 @@ Odds of capture per ball: 0.42%
 Odds of success with balls only: 1.72%
 Odds of success starting with one mud: 1.83%
 Odds of success starting with one bait: 1.92%
-Odds of success starting with two bait: 2.09%
-Odds of success starting with three bait: 2.21%
-Odds of success starting with four bait: 2.29%
-Odds of success starting with five bait: 2.35%
-Odds of success starting with six bait: 2.37%
+Odds of success starting with two bait: 2.08%
+Odds of success starting with three bait: 2.20%
+Odds of success starting with four bait: 2.28%
+Odds of success starting with five bait: 2.34%
+Odds of success starting with six bait: 2.35%
 
 POKEMON: Beldum
 Flee rate: 90
